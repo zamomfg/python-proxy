@@ -37,7 +37,7 @@ And then to run Terraform via proxyn:
 HTTPS_PROXY=localhost:4444 terraform apply
 ````
 
-or export the `HTTPS_PROXY` variable, but i would sugest to use the command above instead, see [Known issues](#Known-issues)
+or export the `HTTPS_PROXY` variable, but i would sugest to use the command above instead, since it might be required to switch between the proxy and not using the proxy see [Known issues](#Known-issues).
 
 #### Arguments
 
