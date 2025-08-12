@@ -13,7 +13,26 @@ This script solve this issue by replaying the latest request when an `404` error
 
 ### Installation
 
-The only required dependency are `mitmproxy`. See install inscrution on their [site](https://docs.mitmproxy.org/stable/overview/installation/)
+The only python package requirements is `mitmproxy`.
+
+It is recomended to install the dependency in a venv
+
+Create the venv:
+```
+python -m venv venv
+```
+
+Activating the venv:
+```
+source venv/bin/activate
+```
+
+Then install mitmproxy
+```
+pip install mitmproxy
+```
+
+Or check the install inscrutions at mitmproxys [site](https://docs.mitmproxy.org/stable/overview/installation/)
 
 Since the proxy inspects HTTPS traffic, a mitmproxy root cert is need to be installed in the az cli certificate trust.
 To donwload the certificate follow the inscrution on mitmproxys site https://docs.mitmproxy.org/stable/concepts/certificates/
