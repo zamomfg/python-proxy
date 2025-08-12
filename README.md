@@ -15,7 +15,7 @@ This script solve this issue by replaying the latest request when an `404` error
 
 The only python package requirements is `mitmproxy`.
 
-It is recomended to install the dependency in a venv
+It is recomended to install the dependency in a venv.
 
 Create the venv:
 ```
